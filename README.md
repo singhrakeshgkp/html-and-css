@@ -1,7 +1,7 @@
 # html-and-css
 
 ## Proj 1 Basic HTML and CSS 
-- **<div>**---> The <div> tag in HTML, short for "division," is a generic container element used to group and structure content on a webpage. It is a block-level element, meaning it typically starts on a new line and takes up the full available width by default.
+- **div**---> The <div> tag in HTML, short for "division," is a generic container element used to group and structure content on a webpage. It is a block-level element, meaning it typically starts on a new line and takes up the full available width by default.
 - Exercise 1 --> apply css on all the div tag, such set background color, height and width..etc ```exercise1.html```
 - Exercise 2 --> apply different css on both div. This we can do with the help of css class.
 - Exercise 3 --> Nesting div tag
