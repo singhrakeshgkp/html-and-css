@@ -25,5 +25,31 @@
     padding-right: 10px;
    }
   ```
-
+- **Designing footer**
+   - make footer background transparent but make sure its darker than nav.
+- add email button ---> when anyone will click on this new email box will appear with prefiled subject and to, or many be we can also include cc
+- embed map --> Go to google map, selecct location, click on share--> embed-->Custom size give the size and copy html
   
+
+## Proj 3 Vehicle Repair 
+
+- Create index.html, style.css and reset-css.css file.
+- add required div, if u see without ```display: flex;``` css in .cards class, all three cards will be displayed vertically. after using display: flex property it will start apearing inline.
+- Add even space between div tags using flex box without any other margins ---> use css ```justify-content: space-between;``` in .cards class
+- Having two div tag of different size in same row--->
+   - we could use withd:200px kind of property but its not recomended
+   - Or we could use percentage width:30%
+   - Or we could use flex: 2 and flex: 1 kind of css attributes. But flex can we used if and only if immediate parent have this in css ex in main we have dispaly: flex
+- How to vertically center content in an html div tag using flexbox css -->  use ```align-items: center;``` css in main
+- Design Header
+  - add following CSS
+    ```
+     header {
+     min-height: 100px;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     padding-top: 20px;
+     padding-bottom: 20px;
+     }
+    ``` 
