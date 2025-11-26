@@ -1,0 +1,26 @@
+ h1 {
+            color:blueviolet ;
+           /*  text-decoration: underline; */
+           text-decoration: overline;
+        }
+        .box1{
+            background-color: antiquewhite;
+            width: 500px;
+            height: 400px;
+        }
+        .box2{
+            background-color: blueviolet;
+            width: 500px;
+            height: 100px;
+     
+        }
+        .box3{
+            background-color: beige;
+            width: 500px;
+            height: 400px;
+        }
+        .box4{
+            background-color: aquamarine;
+            width: 100px;
+            height: 400px;
+        }
