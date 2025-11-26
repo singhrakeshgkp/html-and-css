@@ -52,4 +52,16 @@
      padding-top: 20px;
      padding-bottom: 20px;
      }
-    ``` 
+    ```
+- How to make full background gradient --> add css for body tag ```background-image: linear-gradient(360deg, red,yellow);```
+- How to change default font and color---> add css for body tag ```font-family: Arial, Helvetica, sans-serif; color: white;```
+- How to choose and install google font on your html css website.
+- Line height, space between paragraphs aka space after ---> add css for ```p``` tag ``` line-height: 1.75rem; margin: 1.5rem; ```
+- Difference between png, jpg and svc -->
+- Block level image vs background image in css html ---> its not easly to put things on top of block level image, however same we can easily do with css.
+   - How to add icon to your website using font awesome.
+     - Go to font awesome website, choose icond and download that, add CDN and required code for icon
+- box resizing with border-box in flex.
+- how to make a colored button
+- How to make rounded corner to a button or div tag ---> we can do it with ```border-radius: 20px;``` we can specify individual value for each corner
+- how to add a dropp shaddow for button, div, text....etc ----> ```box-shadow: 5px 5px black;``` observe black shadow color on right side of button
