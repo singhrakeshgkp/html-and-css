@@ -1,67 +1,12 @@
-# html-and-css
+# Responsivenes
 
-## Proj 1 Basic HTML and CSS 
-- **div**---> The div tag in HTML, short for "division," is a generic container element used to group and structure content on a webpage. It is a block-level element, meaning it typically starts on a new line and takes up the full available width by default.
-- Exercise 1 --> apply css on all the div tag, such set background color, height and width..etc ```exercise1.html```
-- Exercise 2 --> apply different css on both div. This we can do with the help of css class.
-- Exercise 3 --> Nesting div tag
-- Exercise 4 --> Define css in seprate file.
+- Responsiveness website responds to different device sizes.
 
-## Proj 2 Restaurant website
-- First install html hint extension that will suggest if there is any html/syntax error.
-- Create new file ```index.html``` and ```style.css```
-- Set background color of entire page ```body{background-color: lightblue;}```
-- Add image, alt attribute in image tag used to display text if there is any issue loading image. Used ``` text-align: center;``` css  in header to move logo in center.
-- Add CSS refer style1.css.
-- Add stretching background image to a website(to add use  background-image: url(/images/background-adare-restaurant.jpg); in css (body)). Now if resize window u will observe image is not aligned properly to fix it use ```background-size: cover;``` in same css. apply other css such as background-repeat, background-position ...etc
-- How to make div tag transparent using html and css ---> example lets say i want to make transparent tag <nav>, we can do it using ``` background-color: rgb(0, 0, 0,0.338);``` css for nav tag.
-- Adding navigation link ---> Add navigation tag and css for it, aslo mention css property ```text-align: center``` for nag tag.
-- How to apply css to more than one class tag at a time/ compound css classes ---> add following css
-  ```
-   nav a {
-    text-decoration: none; /* added to remove underline from <a> tag content */
-    font-size: 12px;
-    padding-left: 10px;
-    padding-right: 10px;
-   }
-  ```
-- **Designing footer**
-   - make footer background transparent but make sure its darker than nav.
-- add email button ---> when anyone will click on this new email box will appear with prefiled subject and to, or many be we can also include cc
-- embed map --> Go to google map, selecct location, click on share--> embed-->Custom size give the size and copy html
-  
+## Change a website layout size and color at different sizes using media query.
+- create one index.html and style.css file, add one heading tag with initial color and define media query to change h1(heading) content color---> now resize your chrome window, u will observe after certain size threshold color will change.
 
-## Proj 3 Vehicle Repair 
+## How to change layout of responsive website for mobille vs desktop
+- refer ```index-v2.html and style-v2.css``` file.
+## How to turn things on and off for mobile, tablet and destop responsive website.
 
-- Create index.html, style.css and reset-css.css file.
-- add required div, if u see without ```display: flex;``` css in .cards class, all three cards will be displayed vertically. after using display: flex property it will start apearing inline.
-- Add even space between div tags using flex box without any other margins ---> use css ```justify-content: space-between;``` in .cards class
-- Having two div tag of different size in same row--->
-   - we could use withd:200px kind of property but its not recomended
-   - Or we could use percentage width:30%
-   - Or we could use flex: 2 and flex: 1 kind of css attributes. But flex can we used if and only if immediate parent have this in css ex in main we have dispaly: flex
-- How to vertically center content in an html div tag using flexbox css -->  use ```align-items: center;``` css in main
-- Design Header
-  - add following CSS
-    ```
-     header {
-     min-height: 100px;
-     display: flex;
-     justify-content: space-between;
-     align-items: center;
-     padding-top: 20px;
-     padding-bottom: 20px;
-     }
-    ```
-- How to make full background gradient --> add css for body tag ```background-image: linear-gradient(360deg, red,yellow);```
-- How to change default font and color---> add css for body tag ```font-family: Arial, Helvetica, sans-serif; color: white;```
-- How to choose and install google font on your html css website.
-- Line height, space between paragraphs aka space after ---> add css for ```p``` tag ``` line-height: 1.75rem; margin: 1.5rem; ```
-- Difference between png, jpg and svc -->
-- Block level image vs background image in css html ---> its not easly to put things on top of block level image, however same we can easily do with css.
-   - How to add icon to your website using font awesome.
-     - Go to font awesome website, choose icond and download that, add CDN and required code for icon
-- box resizing with border-box in flex.
-- how to make a colored button
-- How to make rounded corner to a button or div tag ---> we can do it with ```border-radius: 20px;``` we can specify individual value for each corner
-- how to add a dropp shaddow for button, div, text....etc ----> ```box-shadow: 5px 5px black;``` observe black shadow color on right side of button
+
