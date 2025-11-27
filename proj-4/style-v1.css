@@ -1,0 +1,17 @@
+h1 {
+    color: purple;
+}
+
+/* tablet view */
+@media (max-width: 768px){
+    h1 {
+        color: orange;
+    }
+}
+
+/* mobile view ===> we wont be able to test with size 360 or 400 as mac browser we can not resize to that label so putting some fake value to test which is 500px*/
+@media (max-width:500px){
+    h1{
+        color: red;
+    }
+}
