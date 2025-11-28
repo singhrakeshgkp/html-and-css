@@ -8,3 +8,10 @@
  
 ### How to use bootstrap layout grids
 refer index-v2.html and style-v2.css file
+
+### How to make header 100% and uneven with in bootstrap5.
+- refer index-v3.html and style-v3.css
+
+### How to add padding and margins using bootstrap
+- for margin add classess like ```mb-5``` it means margin bottom similarily we have mt, ml,mr
+
