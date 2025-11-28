@@ -13,5 +13,6 @@ refer index-v2.html and style-v2.css file
 - refer index-v3.html and style-v3.css
 
 ### How to add padding and margins using bootstrap
-- for margin add classess like ```mb-5``` it means margin bottom similarily we have mt, ml,mr
+- for margin add classess like ```mb-5``` it means margin bottom similarily we have for top, left and right ...etc. efer bootstrap documentation section spacing
+- for different devices we can specify margin class like ```class = "m-5 m-md-0 m-lg-n5"``` m-5-->, m-md-0--> for mediam devices, m-lg-n5-->for large devices maring is negative 5
 
