@@ -5,3 +5,6 @@
 - if u run index-v1.html u will see following behavior
    - ```col-lg-3``` --> 4 column on large devices
    - ```col-sm-6``` --> two column on small devices, other two will be adjusted automatically in another row
+ 
+### How to use bootstrap layout grids
+refer index-v2.html and style-v2.css file
