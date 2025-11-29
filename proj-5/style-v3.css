@@ -1,0 +1,17 @@
+.box1{
+    background-color: rgba(212, 75, 75, 0.849);
+    margin: 20px 10px;
+    min-height: 200px;
+    padding: 20px;
+}
+
+.box2{
+    background-color: rgb(124, 230, 195);
+    margin: 20px 10px;
+    min-height: 200px;
+    padding: 20px;
+}
+
+.bg-color{
+    background-color: gray;
+}
